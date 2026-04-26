@@ -1,0 +1,109 @@
+Core Agent Logic
+1. JD Parser
+Extracts skills, experience, role, and location
+2. Matching Engine
+Computes Match Score based on:
+Skill overlap
+Experience alignment
+Availability
+3. Outreach Agent (Key Innovation)
+
+Simulates candidate responses:
+
+Interest level
+Notice period
+Salary expectations
+4. Scoring Engine
+
+Match Score (0–100)
+Interest Score (0–100)
+
+Final Score = (0.6 × Match) + (0.4 × Interest)
+
+Why This Scores High
+Multi-factor scoring (not keyword-based)
+Combines fit + intent (rare in ATS systems)
+Explainable and transparent logic
+
+
+
+
+SAMPLE INPUT & OUTPUT (Output Quality — 20%)
+## Sample Input
+Senior Frontend Engineer  
+Skills: React, TypeScript, AWS  
+Experience: 5+ years  
+Location: Remote  
+
+## Sample Output
+
+Candidate: Rahul Sharma  
+
+Match Score: 85  
+Interest Score: 90  
+Final Score: 87  
+
+
+## Explanation
+
+- ✅ React (matched)  
+- ✅ TypeScript (matched)  
+- ❌ AWS (missing)  
+
+## Candidate Insights
+
+- High interest in role  
+- Notice period: 30 days  
+- Salary expectation aligned  
+
+## Why This Scores High
+
+- Output is actionable  
+- Provides reasoning (not black-box)  
+- Includes decision-ready insights  
+
+
+
+
+## Innovation
+
+### Key Differentiator
+
+Traditional hiring systems evaluate:
+❌ Only candidate fit  
+
+Our system evaluates:
+✅ Fit + Intent  
+
+## Insight
+
+Hiring failures occur when:
+- Candidate looks perfect  
+- But is not interested  
+
+We solve this gap.
+
+## Additional Innovations
+
+- Simulated outreach engine  
+- Explainable matching  
+- Offline AI system for reliability 
+
+
+## Final Impact
+
+AI Talent Scout PRO transforms hiring from:
+
+❌ Manual screening  
+❌ Guesswork  
+❌ Delayed decisions  
+
+➡️ Into:
+
+✅ Intelligent matching  
+✅ Predictive insights  
+✅ Instant decision-making  
+
+## Vision
+
+To evolve into a full-scale AI Hiring OS that replaces traditional ATS platforms.
